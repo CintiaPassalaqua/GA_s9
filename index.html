@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AiBnBr</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script src="principal.js"></script>
+	</head>
+	<body>
+		<nav>
+			<img src="logo.png">
+		</nav>
+		<div id="principal">
+			<div class="opcoes">
+				Check-in/Checkout: <input type="date" id="checkin" onChange="checkDates()"><input id="checkout" type="date" onChange="checkDates()">
+			</div>
+			<div class="botoes_pagina">
+				<input id="bt_voltar" type="button" value="&#x23F4" onClick="voltarPagina()"> <span id="lbl_paginas"></span> <input id="bt_prox" type="button" value="&#x23F5" onClick="proximaPagina()">
+			</div>
+			<div id="cards" class="flex-container">
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+				<div class="card"><img src="#"><h4></h4><p></p><p></p></div>
+			</div>
+		</div>
+	</body>
+</html>
